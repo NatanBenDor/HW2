@@ -14,6 +14,8 @@ gradle = "8.1.0"
 firebaseCrashlyticsGradle = "3.0.1"
 firebaseFirestore = "25.0.0"
 firebaseStorage = "21.0.0"
+googleGmsGoogleServices = "4.4.2"
+googleFirebaseCrashlytics = "3.0.1"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -33,4 +35,6 @@ firebase-storage = { group = "com.google.firebase", name = "firebase-storage", v
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
+googleGmsGoogleServices = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+googleFirebaseCrashlytics = { id = "com.google.firebase.crashlytics", version.ref = "googleFirebaseCrashlytics" }
 

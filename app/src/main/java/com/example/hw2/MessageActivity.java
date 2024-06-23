@@ -12,6 +12,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.bumptech.glide.Glide;
 
+
 public class MessageActivity extends AppCompatActivity {
 
     @Override

@@ -29,6 +29,7 @@ public class AddMessageActivity extends AppCompatActivity {
 
     FirebaseFirestore db = FirebaseFirestore.getInstance();
     ImageView addPhoto;
+
     int REQUEST_PERMISSIONS_CODE = 1;
     private ActivityResultLauncher<Uri> takePictureLauncher;
     private Uri CurrentImage;
@@ -43,6 +44,7 @@ public class AddMessageActivity extends AppCompatActivity {
                 addPhoto.setImageURI(CurrentImage);
             }
         });
+        addPhoto = findViewById(R.id.addPhoto);
         addPhoto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

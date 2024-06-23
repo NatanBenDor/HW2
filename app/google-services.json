@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "280690283709",
-    "project_id": "hw2-forum",
-    "storage_bucket": "hw2-forum.appspot.com"
+    "project_number": "643191420659",
+    "project_id": "hw2-1-fbd0f",
+    "storage_bucket": "hw2-1-fbd0f.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:280690283709:android:66941119163ac3ba5813d4",
+        "mobilesdk_app_id": "1:643191420659:android:08538c482f99df7a1ba986",
         "android_client_info": {
           "package_name": "com.example.hw2"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDzpLzEZQKLhTa4sptynCGi2Gl-VCAVfvk"
+          "current_key": "AIzaSyB8elCxtOUoYa0B63VerUsZFc2Qt48ou6U"
         }
       ],
       "services": {
